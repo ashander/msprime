@@ -13,6 +13,18 @@ bad_records = \
 0.478687	0.481614	5	2,11    0.000000	0
 """
 
+bad_records_but_from_0 = \
+    """left	right	node	children	time	population
+0.000000	0.398041    7	0,2	    0.000000	0
+0.398041	0.894875	7	2,8	    0.000000	0
+0.894875	1.000000	6	0,2	    0.000000	0
+0.398041	0.894875	6	0,9     0.000000	0
+0.000000	0.478687	5	1,3	    0.000000	0
+0.478687	0.481614	5	3,10    0.000000	0
+0.481614	1.000000	4	1,3	    0.000000	0
+0.478687	0.481614	4	1,10    0.000000	0
+"""
+
 good_but_no_zero = \
     """left	right	node	children	time	population
 0.000000	0.390000	3	1,2	0.000000	0
@@ -25,6 +37,7 @@ good = \
 """
 
 records = {'redundant_records': bad_records,
+           'redundant_records_but_from_zero': bad_records_but_from_0,
            'simple_records_but_dont_start_at_zero': good_but_no_zero,
            'simple_records': good
            }
