@@ -2,8 +2,10 @@ def trees(records):
     M = len(records)
     I = sorted(range(M), key=lambda j: (records[j].left, records[j].time))
     O = sorted(range(M), key=lambda j: (records[j].right, -records[j].time))
-    pi = [-1 for j in range(max(r.node for r in records) + 1)]
-    chi = [[] for j in range(max(r.node for r in records) + 1)]
+    max_node_val = max(r.node for r in records) + 1
+    max_child_val = max(c for r in records for c in r.children) + 1
+    pi = [-1 for j in range(max(max_child_val, max_node_val))]
+    chi = [[] for j in range(max(max_child_val, max_node_val))]
     j = 0
     k = 0
     while j < M:
