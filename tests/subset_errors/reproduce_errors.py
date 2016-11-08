@@ -1,5 +1,6 @@
 import tempfile
 import msprime
+from trees import trees
 
 bad_records = \
     """left	right	node	children	time	population
@@ -42,7 +43,7 @@ records = {'redundant_records': bad_records,
            'simple_records': good
            }
 
-if __name__ == "__main__":
+def main(key=None):
     for desc, recs in records.items():
         try:
             with tempfile.NamedTemporaryFile(mode='w') as f:
@@ -50,14 +51,25 @@ if __name__ == "__main__":
                 f.flush()
                 ts = msprime.load_txt(f.name)
             print(desc, ">> can load")
+            if key is not None and desc == key:
+                return(ts)
             try:
                 for t in ts.trees():
                     pass
                 print(desc, ">> can iterate over trees")
-
             except Exception as e:
                 print("!",  desc, "<< FAILS to iterate over trees")
                 print("   raises:", e)
+                print("The trees were:")
+                for t in trees(list(ts.records())):
+                    print(t)
+        except IndexError as ie:
+            print("! Causes IndexError in trees.py")
+            print(ie)
         except Exception as e:
             print("!", desc, "<< FAILS to load")
             print(e)
+        print("\n")
+
+if __name__ == "__main__":
+    main()
