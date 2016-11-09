@@ -61,7 +61,18 @@
 #define MSP_ERR_FILE_VERSION_TOO_OLD                                -30
 #define MSP_ERR_FILE_VERSION_TOO_NEW                                -31
 #define MSP_ERR_BAD_MODEL                                           -33
-
-/* Next error code = -32 */
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_01                          -32
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_02                          -34
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_03                          -35
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_04                          -36
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_05                          -37
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_06                          -38
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_07                          -39
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_08                          -40
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_09                          -41
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_10                          -42
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_11                          -43
+#define MSP_ERR_BAD_COALESCENCE_RECORDS_12                          -44
+/* Next error code = -45 */
 
 #endif /*__ERR_H__*/

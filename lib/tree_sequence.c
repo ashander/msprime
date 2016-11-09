@@ -446,7 +446,7 @@ tree_sequence_init_from_records(tree_sequence_t *self,
 
     memset(self, 0, sizeof(tree_sequence_t));
     if (num_records == 0) {
-        ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+        ret = MSP_ERR_BAD_COALESCENCE_RECORDS_02;
         goto out;
     }
     left = malloc((num_records + 1) * sizeof(double));
@@ -468,7 +468,7 @@ tree_sequence_init_from_records(tree_sequence_t *self,
     for (j = 0; j < self->num_records; j++) {
         self->num_child_nodes += records[j].num_children;
         if (records[j].num_children < 2) {
-            ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+            ret = MSP_ERR_BAD_COALESCENCE_RECORDS_03;
             goto out;
         }
         self->sample_size = GSL_MIN(self->sample_size, records[j].node);
@@ -479,11 +479,11 @@ tree_sequence_init_from_records(tree_sequence_t *self,
     }
 
     if (self->sample_size < 2 || self->sample_size == MSP_NULL_NODE) {
-        ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+        ret = MSP_ERR_BAD_COALESCENCE_RECORDS_04;
         goto out;
     }
     if (self->sequence_length <= 0) {
-        ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+        ret = MSP_ERR_BAD_COALESCENCE_RECORDS_05;
         goto out;
     }
     self->num_nodes++;
@@ -519,13 +519,13 @@ tree_sequence_init_from_records(tree_sequence_t *self,
         if (self->trees.nodes.time[node] == 0.0) {
             self->trees.nodes.time[node] = records[j].time;
         } else if (self->trees.nodes.time[node] != records[j].time) {
-            ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+            ret = MSP_ERR_BAD_COALESCENCE_RECORDS_06;
             goto out;
         }
         if (self->trees.nodes.population[node] == MSP_NULL_POPULATION_ID) {
             self->trees.nodes.population[node] = records[j].population_id;
         } else if (self->trees.nodes.population[node] != records[j].population_id) {
-            ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+            ret = MSP_ERR_BAD_COALESCENCE_RECORDS_07;
             goto out;
         }
         self->trees.records.node[j] = records[j].node;
@@ -588,7 +588,7 @@ tree_sequence_init_from_records(tree_sequence_t *self,
         /* If we can't find the value in breakpoints, it means that
          * we have right coordinates not matching to a left coord */
         if (self->trees.breakpoints[k] != sort_buff[j].value) {
-            ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+            ret = MSP_ERR_BAD_COALESCENCE_RECORDS_08;
             goto out;
         }
         self->trees.records.right[sort_buff[j].index] = (uint32_t) k;
@@ -2219,12 +2219,12 @@ tree_diff_iterator_next(tree_diff_iterator_t *self, double *length,
     }
     if (first_tree) {
         if (in_count != self->sample_size - 1 || out_count != 0) {
-            ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+            ret = MSP_ERR_BAD_COALESCENCE_RECORDS_09;
             goto out;
         }
     } else {
         if (in_count != out_count) {
-            ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+            ret = MSP_ERR_BAD_COALESCENCE_RECORDS_10;
             goto out;
         }
     }
@@ -3084,12 +3084,12 @@ sparse_tree_advance(sparse_tree_t *self, int direction,
     /* Check for errors. */
     if (first_tree) {
         if (out_count != 0 || in_count != self->sample_size - 1) {
-            ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+            ret = MSP_ERR_BAD_COALESCENCE_RECORDS_11;
             goto out;
         }
     } else {
         if (in_count != out_count) {
-            ret = MSP_ERR_BAD_COALESCENCE_RECORDS;
+            ret = MSP_ERR_BAD_COALESCENCE_RECORDS_12;
             goto out;
         }
     }
