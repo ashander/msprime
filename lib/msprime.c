@@ -132,6 +132,42 @@ msp_strerror(int err)
         case MSP_ERR_BAD_COALESCENCE_RECORDS:
             ret = "Bad coalescence records in file.";
             break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_01:
+	    ret = "Bad coalescence records in file, _01.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_02:
+	    ret = "Bad coalescence records in file, _02.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_03:
+	    ret = "Bad coalescence records in file, _03.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_04:
+	    ret = "Bad coalescence records in file, _04.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_05:
+	    ret = "Bad coalescence records in file, _05.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_06:
+	    ret = "Bad coalescence records in file, _06.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_07:
+	    ret = "Bad coalescence records in file, _07.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_08:
+	    ret = "Bad coalescence records in file, _08.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_09:
+	    ret = "Bad coalescence records in file, _09.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_10:
+	    ret = "Bad coalescence records in file, _10.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_11:
+	    ret = "Bad coalescence records in file, _11.";
+	    break;
+	case MSP_ERR_BAD_COALESCENCE_RECORDS_12:
+	    ret = "Bad coalescence records in file, _12.";
+	    break;
         case MSP_ERR_BAD_SAMPLES:
             ret = "Bad sample configuration provided.";
             break;
