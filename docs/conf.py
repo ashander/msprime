@@ -15,6 +15,7 @@
 import sys
 import os
 import shlex
+sys.setrecursionlimit(500)
 
 # It's easier not to try to build the low-level module for the
 # documentation build on readthedocs, so we mock the module. Follows

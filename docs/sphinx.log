@@ -1,0 +1,385 @@
+
+Traceback (most recent call last):
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/site-packages/sphinx/cmdline.py", line 295, in main
+    opts.warningiserror, opts.tags, opts.verbosity, opts.jobs)
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/site-packages/sphinx/application.py", line 163, in __init__
+    confoverrides or {}, self.tags)
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/site-packages/sphinx/config.py", line 134, in __init__
+    execfile_(filename, config)
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/site-packages/sphinx/util/pycompat.py", line 129, in execfile_
+    exec_(code, _globals)
+  File "conf.py", line 35, in <module>
+    sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
+  File "conf.py", line 35, in <genexpr>
+    sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+  File "conf.py", line 32, in __getattr__
+    return Mock()
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1825, in __init__
+    self._mock_set_magics()  # make magic work for kwargs in init
+  File "/home/jaime/miniconda3/envs/msprime-dev/lib/python3.6/unittest/mock.py", line 1833, in _mock_set_magics
+    if getattr(self, "_mock_methods", None) is not None:
+RecursionError: maximum recursion depth exceeded while calling a Python object
+
+[31;01mRecursion error:[39;49;00m
+maximum recursion depth exceeded while calling a Python object
+
+This can happen with very large or deeply nested source files.  You can carefully increase the default Python recursion limit of 1000 in conf.py with e.g.:
+    import sys; sys.setrecursionlimit(1500)
