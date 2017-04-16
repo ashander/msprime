@@ -28,8 +28,11 @@ import os
 import random
 import signal
 import sys
+import warnings
 
 import msprime
+
+warnings.simplefilter("ignore", category=RuntimeWarning)
 
 
 def set_sigpipe_handler():

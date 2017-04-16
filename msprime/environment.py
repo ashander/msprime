@@ -24,6 +24,7 @@ from __future__ import print_function
 from __future__ import division
 
 import platform
+import warnings
 
 import _msprime
 
@@ -33,6 +34,35 @@ try:
     __version__ = _version.version
 except ImportError:
     pass
+
+# warnings at the end of the filter have least precedence by putting a filter at
+# the end so clients of this module can override by importing warnings and
+# running ``warnings.simplefilter("ignore", category=RuntimeWarning)
+# before import
+warnings.simplefilter("always", category=RuntimeWarning, append=True)
+
+
+def have_numpy():
+    """
+    Returns true if numpy meets requirements
+
+    Warns with RuntimeWarning (printed by defuault but can be suppressed by
+    ``warnings.simplefilter("ignore", category=RuntimeWarning)``.
+    """
+    try:
+        import numpy as np
+        version = tuple(map(int, np.__version__.split(".")))
+        if version < (1, 7, 0):
+            warnings.warn("numpy version is too old: " +
+                          "version 1.7 or newer needed",
+                          RuntimeWarning)
+            return False
+        else:
+            return True
+    except:
+        warnings.warn("Numpy not available. Some features will not work.",
+                      RuntimeWarning)
+        return False
 
 
 def get_environment():
@@ -60,3 +90,6 @@ def get_environment():
         }
     }
     return env
+
+
+HAVE_NUMPY = have_numpy()  # Run check for numpy on import
