@@ -23,7 +23,6 @@ import subprocess
 import platform
 import os
 import os.path
-from warnings import warn as loud_warn
 
 
 def warn(message):
@@ -41,7 +40,7 @@ try:
     else:
         HAVE_NUMPY = True
 except ImportError:
-    loud_warn("numpy not available. Some features will not work.")
+    raise Warning("numpy not available. Some features will not work.")
 
 # First, we try to use setuptools. If it's not available locally,
 # we fall back on ez_setup.
