@@ -23,11 +23,11 @@ import subprocess
 import platform
 import os
 import os.path
-import sys
+from warnings import warn as loud_warn
 
 
 def warn(message):
-    print("Warning:", message, file=sys.stderr)
+    print("Warning:", message)
 
 
 CONDA_PREFIX = os.getenv("MSP_CONDA_PREFIX", None)
@@ -41,7 +41,7 @@ try:
     else:
         HAVE_NUMPY = True
 except ImportError:
-    warn("numpy not available. Some features will not work.")
+    loud_warn("numpy not available. Some features will not work.")
 
 # First, we try to use setuptools. If it's not available locally,
 # we fall back on ez_setup.
