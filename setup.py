@@ -23,10 +23,11 @@ import subprocess
 import platform
 import os
 import os.path
+import sys
 
 
 def warn(message):
-    print("Warning:", message)
+    print("Warning:", message, file=sys.stderr)
 
 
 CONDA_PREFIX = os.getenv("MSP_CONDA_PREFIX", None)
